@@ -16,14 +16,9 @@
         <param-value>/WEB-INF/applicationContext.xml</param-value>
     </context-param>
 
-<!--    <listener>-->
-<!--        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
-<!--    </listener>-->
-
     <listener>
-        <listener-class>com.rahul.commons.ParentContextLoaderListener</listener-class>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
-
 
     <listener>
         <listener-class>org.springframework.web.context.request.RequestContextListener
